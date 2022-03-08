@@ -1,0 +1,127 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+
+input{
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+	background-color: #eee;
+}
+
+body{
+	background-image:linear-gradient(rgb(0,0,0,0.9),rgb(0,0,0,0.9)), url(metal-1693265_640.jpg);
+	height: 100vh;
+  background-size: cover;
+  background-position: center;
+float: left;
+margin:0 auto;
+padding: 0;
+ width: 100%;
+font: 70%/1.4 Verdana, Arial, Helvetica, sans-serif;
+
+ opacity: .7;
+}
+
+.fm{
+	float:left;
+	padding:50px;
+   background-color: #3f4f4f;
+   margin-left: 20px;
+   margin-right: 20px;
+   margin-top: 100px;
+   box-shadow:0px 12px 10px #000;
+   border-radius:10px;
+
+}
+.wrapfrm{
+	float:left;
+	width: 100%;
+	margin:0 auto;
+	margin-bottom: 50px;
+	
+}
+
+h1{
+	color: #fffacd;
+}
+
+.ask{
+	
+	color:#f0e58c;
+}
+
+.fld{
+	float:left;
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px;
+	list-style-type: none;
+}
+.signbt{
+	color: #fffacd;
+	border-color: #ff4136;
+	border-style: hidden;
+	background-color: #ff4136;
+	width: 220px;
+    padding: 15px;
+	margin-top: 50px;
+	border-radius: 5px;
+	box-shadow:0px 5px 10px #111;
+}
+
+/*start of reponsiveness*/
+@media only screen and (min-width: 950px){
+
+.fm{
+	float:left;
+	padding:50px;
+   background-color: #3f4f4f;
+   margin-left: 220px;
+   margin-right: 220px;
+   margin-top: 100px;
+   box-shadow:0px 12px 10px #000;
+   border-radius:10px;
+
+}
+.wrapfrm{
+	float:left;
+	width: 100%;
+	margin:0 auto;
+	margin-bottom: 50px;
+	
+}
+
+
+h1{
+	color: #fffacd;
+}
+
+.ask{
+	color:#f0e58c;
+}
+
+.fld{
+	width: 250px;
+	border-radius: 5px;
+	padding: 10px;
+	list-style-type: none;
+}
+.signbt{
+	color: #fffacd;
+	border-color: #ff4136;
+	border-style: hidden;
+	background-color: #ff4136;
+	width: 220px;
+    padding: 15px;
+	margin-top: 50px;
+	border-radius: 5px;
+	box-shadow:0px 5px 10px #111;
+}
+
+}
+
+/*end of reponsiveness*/

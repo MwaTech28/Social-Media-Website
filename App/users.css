@@ -1,0 +1,323 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+::-webkit-scrollbar{
+
+	width:10px;
+}
+::-webkit-scrollbar-track{
+
+	border-radius: 2px;
+	background:#f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 2px;
+	background:#888;
+}
+::-webkit-scrollbar-thumb:hover{
+	background:#222;
+
+}
+
+.timeline{
+	float:left;
+	width: 100%;
+
+	background: white;
+    position:relative;
+
+}
+
+
+#details{
+	margin-top:100px;
+	float:right;
+	width: 100%;
+}
+
+#details p{
+	margin:5px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 3px #ff4136;
+	padding: 10px;
+	width: 100%;
+	float:right;
+	overflow:hidden;
+}
+
+#details a{
+	margin:5px;
+	border-radius: 15px;
+	padding: 10px;
+	width: 100%;
+	float:right;
+	background-color: #ff4136;
+	list-style-type: none;
+	text-decoration: none;
+	color:  #fffacd;
+}
+
+#timelinecover{
+	position:absolute;
+	background: black;
+	width:100%;
+	height:130px;
+	
+}
+
+.timeline img{
+
+	z-index:2;
+	opacity: .9;
+	margin-top:30px;
+	border-radius:50%;
+	margin-left: 50px;
+	border: 2px solid #ff4136;
+ 	box-shadow: 0px 0px 5px 0px #ff4136;
+
+}
+.timeline h2{
+    //float: right;
+	margin-left: 240px;
+	margin-top: -75px;
+	opacity: .9;
+	color: #fffacd;
+}
+.timeline p{
+	margin-top: 20px;
+	padding: 3px 65px 2px 5px;
+	float: right;
+	font-size: 12px;
+	color: #2f4f4f;
+	border: 2px solid  #fffacd;
+	opacity: .9;
+}
+
+
+.comment{
+	border-radius: 20px;
+	margin-top:20px;
+	width:100%;
+	float:left;
+	padding:10px;
+	box-shadow: 0px 0px 3px 0px black;
+	overflow:hidden;
+}
+
+#commentssize{
+	font-size:25px;
+}
+
+.commenttext{
+	float:left;
+	width:100%;
+	font-size:20px;
+}
+
+#commentwrapper{
+	width:100%;
+	float:left;
+	border-radius: 20px;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:20px 20px 20px 20px;
+	box-shadow: 0px 0px 3px 0px black;
+}
+
+.deleteBtn{
+	border-radius:10px;
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+	background-color: #ff4136;
+	color:  #fffacd;
+
+	padding:5px;
+	cursor: pointer;
+}
+
+
+#dtl h2{
+	color:  #fffacd;
+}
+#dtl img{
+	border: 4px solid #ff4136;
+	border-style: groove;
+}
+.info{
+     border: 3px solid #fffacd;
+	border-style: groove;
+}
+.info h2{
+     border-bottom: 2px solid #fffacd;
+
+}
+
+
+.tag{
+	font-size: 25px;
+	float: left;
+	margin-top: 20px;
+	padding: 20px;
+	width: 100%;
+    background: #222;
+    color: #fffacd;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px #000;
+
+
+}
+.welcome{
+    width:100%;
+	float:left;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+/*start of reponsiveness*/
+@media only screen and (min-width: 950px){
+
+input{
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+
+}
+
+
+.timeline{
+	float:left;
+	width: 100%;
+	background: white;
+    position:relative;
+
+}
+
+#details{
+	
+	margin-top:40px;
+
+}
+
+#details p{
+	margin:5px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 3px #ff4136;
+	padding: 10px;
+	width: 150px;
+	float:right;
+	overflow:hidden;
+}
+
+#details a{
+	margin:5px;
+	border-radius: 15px;
+	padding: 10px;
+	width: 50px;
+	float:right;
+	background-color: #ff4136;
+	list-style-type: none;
+	text-decoration: none;
+	color:  #fffacd;
+}
+
+#timelinecover{
+	position:absolute;
+	background: black;
+	width:100%;
+	height:130px;
+	
+}
+
+.timeline img{
+	z-index:2;
+	opacity: .9;
+	margin-top:30px;
+	border-radius:50%;
+	margin-left: 50px;
+	border: 2px solid #ff4136;
+ 	box-shadow: 0px 0px 5px 0px #ff4136;
+
+}
+
+.timeline h2{
+    
+	margin-left: 240px;
+	margin-top: -75px;
+	opacity: .9;
+	color: #fffacd;
+}
+
+.timeline button a{
+
+	list-style-type: none;
+	text-decoration: none;
+	color:  #fffacd;
+}
+
+.comment{
+	border-radius: 20px;
+	margin-top:20px;
+	width:100%;
+	float:left;
+	padding:10px;
+	box-shadow: 0px 0px 3px 0px black;
+	overflow:hidden;
+}
+
+#commentssize{
+	font-size:25px;
+}
+
+.commenttext{
+	float:left;
+	width:100%;
+	font-size:20px;
+}
+
+#commentwrapper{
+	width:100%;
+	float:left;
+	border-radius: 20px;
+	margin-top:20px;
+	margin-bottom:20px;
+	padding:20px 80px 20px 80px;
+	box-shadow: 0px 0px 3px 0px black;
+}
+
+.deleteBtn{
+	
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+	background-color: #ff4136;
+	color:  #fffacd;
+
+	padding:5px 50px 5px 50px;
+}
+
+
+.tag{
+	font-size: 25px;
+	float: left;
+	margin-top: 20px;
+	padding: 20px;
+	width: 100%;
+    background: #222;
+    color: #fffacd;
+    border-radius: 10px;
+    box-shadow: 0px 8px 15px #000;
+
+
+}
+
+
+}
+
+/*end of reponsiveness*/

@@ -1,0 +1,979 @@
+*{
+-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-box-sizing: border-box;
+	font-family:sans-serif;
+	font-size:12px;
+  margin:0;
+  padding:0;
+}
+::-webkit-scrollbar{
+	width:5px;
+	
+}
+::-webkit-scrollbar-track{
+	border-radius: 2px;
+	background:#f1f1f1;
+	margin-top:15px;
+	margin-bottom:15px;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 2px;
+	background:#ff4136;
+}
+::-webkit-scrollbar-thumb:hover{
+	background:#222;
+}
+
+.block1{
+	display:none;
+	background:black;
+	width:100%;
+	height:100%;
+	position:fixed;
+	opacity: .8;
+	z-index:1;
+}
+
+#navbar{
+	float: left;
+   width: 100%;
+}
+
+#navbar .accountName{
+	float: left;
+  
+	display: inline-block;
+	width: 100%;
+}
+
+#navbar .navs{
+	float: left;
+  
+	display: inline-block;
+	width: 100%;
+}
+
+#navbar table{
+	padding-left: 200px;
+}
+#table2 img{
+
+	border-radius: 50%;
+    border: 2px solid #ff4136;
+ 	box-shadow: 0px 0px 5px 0px #ff4136;
+}
+
+#navbar #table2{
+	float:left;
+	padding: 5px;
+	width: 100%;
+}
+
+#navbar table a{
+	font-size:20px;
+	font-weight:bold;
+	color:black;
+}
+
+#navbarBtnlogin{
+	border-radius: 10px;
+	border-style:none;
+	color: white;
+	float:right;
+    padding:10px;
+	background: #ff4136;
+	cursor: pointer;
+}
+
+#navbar .accountName h2{
+font-weight:bold;
+	font-size:50px;
+}
+
+#navbar .navbarBtn{
+	padding-right: 20px;
+	display: inline-block;
+	float: right;
+}
+
+#navbar .navbarBtn a{
+	margin-right:10px;
+	 border-radius:10px;
+	background-color: #ff4136;
+
+}
+
+#navbar li a{
+	color:  #fffacd;
+	text-decoration: none;
+	list-style-type: none;
+	padding: 10px;
+}
+
+img{
+	object-fit:cover;
+}
+
+
+#leftbox .wel {
+	font-size: 12px;
+     padding:30px;
+	 
+}
+
+#cover{
+	position: absolute;
+	width: 100%;
+
+	 height: 100%;
+	 opacity: .3;
+}
+
+.wel h1{
+	font-weight:bold;
+	font-size: 15px;
+}
+
+.wel h3{
+	font-weight:bold;
+	font-size: 12px;
+}
+
+.home{
+	float:left;
+	padding:10px;
+	width: 100%;
+	color: #fffacd;
+	background-color: #008080;
+}
+
+.home h1{
+	font-size:25px;
+}
+
+input{
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+	background-color: #eee;
+}
+#leftbox li {
+	border-radius: 10px;
+	border:2px solid #fffacd;
+	border-style: groove;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 12px;
+     padding:30px;
+	 
+
+}
+#leftbox li:hover {
+	
+	background-color: #008b8b;
+	transition: all 0.8s ease-out;
+	border:2px solid #008b8b;
+	color:  #fffacd;
+}
+
+#leftbox li a {
+	color: black;
+}
+
+
+#leftbox{
+
+	padding:10px;
+	float: left;
+    width: 100%;
+	margin-top: 15px;
+}
+
+#leftbox div{
+	width: 100%;
+	padding:5px;
+	border-radius:15px;
+	float: left;
+	box-shadow: 0px 0px 3px 0px black;
+}
+
+#tableleft{
+	float: left;
+	width: 100%;
+}
+
+#sign{
+	cursor: pointer;
+}
+
+#log{
+	cursor: pointer;
+}
+
+#members{
+	margin-top: 4px;
+	float: left;
+	width: 100%;
+	
+	max-height: 230px;
+	overflow:hidden;
+	overflow-y: scroll;
+}
+
+#members li {
+	border:2px solid #fffacd;
+	border-style: groove;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 11px;
+     padding:12px;
+}
+
+#members table{
+	width: 100%;
+	
+}
+
+#members img{
+	margin-left: 0px;
+	margin-top: -4px;
+	margin-bottom: -10px;
+	border-radius:50%;
+}
+
+#rightbox{
+	
+	float: left;
+	width: 100%;
+	margin-top: 5px;
+	
+}
+
+#rightbox div{
+	
+	border-radius:15px;
+	float: left;
+position: relative;
+	 overflow:hidden
+}
+
+#rightbox .desc h1{
+	font-weight: bold;
+	font-size: 20px;
+     padding:20px 120px 20px 0px;
+	 color: white;
+	 z-index:5;
+
+}
+
+
+.rightbox2 {
+	background:#008080;
+	border-radius:15px;
+	float: left;
+	height:500px;
+	width: 100%;
+    position: relative;
+	overflow:hidden
+}
+
+.descNormal {
+	color:#fffacd;
+	font-size:20px;
+	position:absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#rightbox li {
+	text-decoration: none;
+	list-style-type: none;
+	
+
+}
+
+#tableright{
+	width: 100%;
+}
+
+#tb4{
+	float: left;
+	width: 100%;
+	color:#fffacd;
+}
+
+p h1 h2 h3 strong{
+	font-size: 10px;
+}
+
+#tb4 #chattext {
+	border-radius: 10px;
+	font-size: 12px;
+     padding:20px 120px 20px 10px;
+	 box-shadow: 0px 0px 3px 0px black;
+	 background:white;
+	 color: black;
+     overflow:hidden;
+     font-size: 11px;
+
+}
+#chattext .sy{
+border-radius: 0px;
+	margin-left: 10px;
+}
+ #chattext img{
+	border: 2px solid #ff4136;
+ 	box-shadow: 0px 0px 5px 0px #ff4136;
+	border-radius: 50%;
+}
+#tb4 li {
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 12px;
+     padding:0px 120px 20px 0px;
+
+}
+#coms{
+	width: 45%;
+	float: right;
+	background: #3f4f4f;
+	height: 365px;
+	overflow-y:scroll; 
+}
+.cm {
+
+	background-color: white;
+	padding: 10px;
+
+	float: right;
+	color:black;
+	padding-right: 20%;
+}
+caption{
+	background-color: white;
+	color:black;
+	padding: 10px;
+}
+
+.about{
+	background-color: transparent;
+	color:#fffacd;
+	font-size:30px;
+	font-weight:bold;
+	padding: 15px;
+}
+
+.about h2{
+
+	font-size:30px;
+}
+
+.logtbl{
+	position: fixed;
+	width: 200px;
+	top: 50%;
+    left: 50%; 
+   -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	color: #fffacd;
+	padding: 20px;
+	border:2px solid #fffacd;
+	border-style: dashed;
+	box-shadow: 0px 18px 10px #000;
+	display: none;
+	z-index:5;
+}
+
+.logtbl caption{
+ background-color: #fffacd;
+	padding: 10px;
+
+}
+
+.logtbl input{
+	width: 200px;
+	padding: 10px;
+}
+
+.logtbl button{
+	padding: 10px;
+	width: 200px;
+	border:2px solid #fffacd;
+    background-color: #3f4f4f;
+    color: #fffacd;
+	cursor: pointer;
+}
+
+#backBtn{
+	cursor:pointer;
+}
+
+#txt{
+	border-top: 2px solid #ff4136;
+	float: right;
+	background: #333;
+	padding: 10px 0px 10px 0px;
+	width: 45%;
+	height: 100%;
+}
+
+textarea{
+	width: 80%;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 28px;
+	padding-left: 5px;
+	border-radius: 5px;
+	opacity: .9;
+	background: #555;
+	color: #fffacd;
+	
+}
+textarea{
+	overflow-y: scroll;
+	resize:none;
+
+}
+#txt button{
+	background: #333;
+	border: 2px solid #ff4136;
+	color: #ff4136;
+	width: 5%;
+	position: absolute;
+	padding: 10px;
+	margin-left: 10px;
+	margin-top: 3px;
+	margin-bottom: -50px;
+	height: 60px;
+
+}
+body{
+	float:left;
+	width: 100%;
+	 position:relative;
+background: white;
+float:left;
+margin:0;
+padding: 0;
+ width: 100%;
+font: 70%/1.4 Verdana, Arial, Helvetica, sans-serif;
+
+}
+
+.wrap{
+	float:left;
+	width: 100%;
+	padding-left:100px;
+	padding-right:100px;
+}
+
+.fot{
+	margin-left: 50px;
+  padding: 50px;
+}
+
+#chatBtn{
+	background-color:white;
+	float:left;
+	padding:10px;
+	cursor:pointer;
+ box-shadow: 0px 0px 10px 0px #008080;
+	border-radius: 50%;
+}
+
+
+
+#textbox{
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	width: 0px;
+	 height: 40px;
+
+	
+}
+
+#textboxinput{
+    float:left;
+	border-radius: 10px;
+	width: 80%;
+	height: 100%;
+}
+
+#chatBtnwrapper{
+	width:30%;
+	margin-bottom:15px;
+  position:fixed;
+ bottom:0;  
+
+}
+
+#postBtn{
+	float:left;
+	width: 20%;
+	height: 100%;
+	
+	border:none;
+	color:white;
+	background:#008080;
+	border-radius:10px;
+	cursor:pointer;
+	display: none:
+}
+
+/*start of reponsiveness*/
+@media only screen and (min-width: 950px){
+
+#navbar{
+   width: 100%;
+
+}
+
+#navigate{
+	
+}
+
+#navbar .accountName{
+	float: left;
+  
+	display: inline-block;
+}
+
+#navbar h3{
+	font-size:30px;
+}
+
+#navbar .navs{
+	float: left;
+  
+	display: inline-block;
+	width: 100%
+}
+
+#navbar table{
+	padding-left: 200px;
+}
+#table2 img{
+
+	border-radius: 50%;
+    border: 2px solid #ff4136;
+ 	box-shadow: 0px 0px 5px 0px #ff4136;
+}
+#navbar #table2{
+	float:left;
+	padding: 5px;
+	width: 100%;
+}
+#navbar table a{
+	font-size:20px;
+	font-weight:bold;
+	color:black;
+}
+
+#navbar .navbarBtn{
+	padding-right: 20px;
+	display: inline-block;
+	float: right;
+}
+
+#navbar .navbarBtn a{
+	 border-radius:10px;
+	background-color: #ff4136;
+
+}
+
+img{
+	object-fit:cover;
+}
+
+#leftbox .wel {
+	font-size: 12px;
+     padding:30px;
+	 
+}
+
+#cover{
+	position: absolute;
+	width: 100%;
+
+	 height: 100%;
+	 opacity: .3;
+}
+
+#chatmsg{
+	margin-top:20px;
+	width:100%;
+}
+
+#chatmsg h1{
+	color: silver;
+	font-size: 20px;
+}
+
+.wel h1{
+	font-weight:bold;
+	font-size: 15px;
+}
+
+.wel h3{
+	font-weight:bold;
+	font-size: 12px;
+}
+
+.home{
+	float:left;
+	padding:10px;
+	width: 100%;
+	color: #fffacd;
+	background-color: #008080;
+}
+
+.home h1{
+	font-size:25px;
+}
+
+input{
+	border-top-style: hidden;
+	border-right-style: hidden;
+	border-left-style: hidden;
+	border-bottom-style: hidden;
+	background-color: #eee;
+}
+#leftbox li {
+	border-radius: 10px;
+	border:2px solid #fffacd;
+	border-style: groove;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 12px;
+     padding:30px;
+	 
+
+}
+#leftbox li:hover {
+	
+	background-color: #008b8b;
+	transition: all 0.8s ease-out;
+	border:2px solid #008b8b;
+	color:  #fffacd;
+}
+
+#leftbox li a {
+	color: black;
+}
+
+
+#leftbox{
+float: left;
+    width: 30%;
+}
+
+#members{
+	margin-top: 4px;
+	float: left;
+	width: 100%;
+	
+	max-height: 230px;
+	overflow:hidden;
+	overflow-y: scroll;
+}
+
+#members li {
+
+	border:2px solid #fffacd;
+	border-style: groove;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 11px;
+     padding:12px;
+
+}
+
+#rightbox{
+	
+	float: left;
+	width: 70%;
+	
+}
+
+#rightbox div{
+	
+	border-radius:15px;
+	float: left;
+position: relative;
+	 overflow:hidden
+}
+
+#rightbox .desc h1{
+	font-weight: bold;
+	font-size: 20px;
+     padding:20px 120px 20px 0px;
+	 color: white;
+	 z-index:5;
+
+}
+
+
+.rightbox2 {
+	background:#008080;
+	border-radius:15px;
+	float: left;
+	height:500px;
+	width: 100%;
+    position: relative;
+	overflow:hidden
+}
+
+.descNormal {
+	color:#fffacd;
+	font-size:20px;
+	position:absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#rightbox li {
+	text-decoration: none;
+	list-style-type: none;
+	
+
+}
+
+#tableright{
+	width: 100%;
+}
+
+#tb4{
+	float: left;
+	width: 100%;
+	color:#fffacd;
+}
+
+p h1 h2 h3 strong{
+	font-size: 10px;
+}
+
+#tb4 #chattext {
+	border-radius: 10px;
+	font-size: 12px;
+     padding:20px 120px 20px 10px;
+	 box-shadow: 0px 0px 3px 0px black;
+	 background:white;
+	 color: black;
+     overflow:hidden;
+     font-size: 11px;
+
+}
+#chattext .sy{
+border-radius: 0px;
+	margin-left: 10px;
+}
+ #chattext img{
+	border: 2px solid #ff4136;
+ 	box-shadow: 0px 0px 5px 0px #ff4136;
+	border-radius: 50%;
+}
+#tb4 li {
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 12px;
+     padding:0px 120px 20px 0px;
+
+}
+#coms{
+	width: 45%;
+	float: right;
+	background: #3f4f4f;
+	height: 365px;
+	overflow-y:scroll; 
+}
+.chatcaption {
+
+	background-color: white;
+	padding-top: 10px;
+	padding-right: 20px;
+    width:100%;
+	color:black;
+}
+
+.chatcaption h2{
+	float:right;
+font-size:25px;
+	font-weight:bold;
+}
+
+caption{
+	background-color: white;
+	color:black;
+	padding: 10px;
+}
+
+.about{
+	background-color: transparent;
+	color:#fffacd;
+	font-size:30px;
+	font-weight:bold;
+	padding: 15px;
+}
+
+.about h2{
+
+	font-size:30px;
+}
+
+.logtbl{
+	position: fixed;
+	width: 200px;
+	top: 50%;
+    left: 50%; 
+   -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	color: #fffacd;
+	padding: 20px;
+	border:2px solid #fffacd;
+	border-style: dashed;
+	box-shadow: 0px 18px 10px #000;
+	display: none;
+	z-index:5;
+}
+
+.logtbl caption{
+ background-color: #fffacd;
+	padding: 10px;
+
+}
+
+.logtbl input{
+	width: 200px;
+	padding: 10px;
+}
+
+.logtbl button{
+	padding: 10px;
+	width: 200px;
+	border:2px solid #fffacd;
+    background-color: #3f4f4f;
+    color: #fffacd;
+}
+
+#backBtn{
+	cursor:pointer;
+}
+
+#txt{
+	border-top: 2px solid #ff4136;
+	float: right;
+	background: #333;
+	padding: 10px 0px 10px 0px;
+	width: 45%;
+	height: 100%;
+}
+
+textarea{
+	width: 80%;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 28px;
+	padding-left: 5px;
+	border-radius: 5px;
+	opacity: .9;
+	background: #555;
+	color: #fffacd;
+	
+}
+textarea{
+	overflow-y: scroll;
+	resize:none;
+
+}
+#txt button{
+	background: #333;
+	border: 2px solid #ff4136;
+	color: #ff4136;
+	width: 5%;
+	position: absolute;
+	padding: 10px;
+	margin-left: 10px;
+	margin-top: 3px;
+	margin-bottom: -50px;
+	height: 60px;
+
+}
+body{
+	float:left;
+	width: 100%;
+	 position:relative;
+background: white;
+float:left;
+margin:0;
+padding: 0;
+ width: 100%;
+font: 70%/1.4 Verdana, Arial, Helvetica, sans-serif;
+}
+
+.wrap{
+	float:left;
+	width: 100%;
+	padding-left:100px;
+	padding-right:100px;
+}
+
+.fot{
+	margin-left: 50px;
+  padding: 50px;
+}
+
+#chatBtn{
+	background-color:white;
+	float:left;
+	padding:10px;
+	cursor:pointer;
+ box-shadow: 0px 0px 10px 0px #008080;
+	border-radius: 50%;
+}
+
+#textbox{
+	float:left;
+	margin-left:10px;
+	margin-top:10px;
+	width: 0px;
+	 height: 40px;
+
+	
+}
+
+#textboxinput{
+    float:left;
+	border-radius: 10px;
+	width: 80%;
+	height: 100%;
+}
+
+#chatBtnwrapper{
+	width:30%;
+	margin-bottom:15px;
+  position:fixed;
+ bottom:0;  
+
+}
+
+#postBtn{
+	float:left;
+	width: 20%;
+	height: 100%;
+	
+	border:none;
+	color:white;
+	background:#008080;
+	border-radius:10px;
+	cursor:pointer;
+	display: none:
+}
+
+}
+
+/*end of reponsiveness*/
