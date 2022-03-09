@@ -33,7 +33,9 @@ This is the way i have specified the database names with my code.
 Take note of the key datatypes to use, I specified below
 
 First table name is: users and the field names are id(auto increment),fname,lname,email,pass varchar(100),loc,age
+
 Second table name is: proimg and the field names are id(auto increment),userid(int),status(int)
+
 Third table name is: comments and the field names are id(auto increment),userid(int),com(varchar)
 
 
