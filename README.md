@@ -2,6 +2,7 @@
 
 # Screenshots
 ![mwasocialall2](https://user-images.githubusercontent.com/98475826/157348100-fa77a93a-f03f-441a-8f28-fdb30d822cd2.png)
+![mwasocialall3](https://user-images.githubusercontent.com/98475826/157348305-df884e91-1df4-4d82-b972-96d28ece3f4d.png)
 
 This is a simple responsive small scaled social media website that allows you to sign up and register an account, edit you profle information 
 and engage in conversations through chat sessions. P.S. this app uses the wamp software (apache, mysql and php) with php my admin for the database 
