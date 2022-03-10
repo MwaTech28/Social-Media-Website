@@ -1,6 +1,7 @@
 # Mini-Social-Media-Website
 
 # Screenshots
+![video_site_screenshot](https://user-images.githubusercontent.com/98475826/157651328-3b34eadc-8059-440e-926d-d25d48f68e3a.png)
 ![mwasocialall2](https://user-images.githubusercontent.com/98475826/157348100-fa77a93a-f03f-441a-8f28-fdb30d822cd2.png)
 ![mwasocialall3](https://user-images.githubusercontent.com/98475826/157348305-df884e91-1df4-4d82-b972-96d28ece3f4d.png)
 
